@@ -1,4 +1,11 @@
 # Crawler
+
+## Env
+A url base para as chamadas HTTP é configurada no `.env`:
+```
+ANSWER_BASE_URI=
+```
+
 ## Container
 
 No projeto há o `DockerFile` para criação do container e o `docker-compose.yml` para utilizá-lo.
