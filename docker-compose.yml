@@ -1,0 +1,10 @@
+version: '2'
+services:
+  manager:
+    image: crawly
+    container_name: crawly
+    restart: always
+    ports:
+      - '8019:80'
+    volumes:
+      - .:/var/www/html:cached
